@@ -1,0 +1,112 @@
+body {
+    font-family: 'hero';
+    }
+ .header {
+     display: flex;
+     justify-content: space-between;
+     background-color: #1F2937;
+ }   
+ .header .logo {
+     height: auto;
+     max-width: 100px;
+     background-color: #1F2937;
+ }
+ ul {
+     list-style-type: none;
+     color: white;
+     display: flex;
+     justify-content: space-between;   
+     margin: 10px;
+     gap: 20px;
+
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+ .first img {
+     height: 200px;
+     margin-right: 250px;
+     width: auto;
+ }
+ .first {
+     display: flex;
+     color: white;
+     background-color: #1F2937;
+     justify-content: space-between;
+     padding: 20px;
+     
+ }
+ .box {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border: 3px solid blue;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    margin: 30px
+}
+.second {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+} 
+.cardbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px;
+ }
+ .cardbox .card {
+     display: flex;
+     font-size: 5px;
+     color:#717a86;
+     gap: 40px;
+ }
+ .head2 {
+     text-align: center;
+     font-size: 32px;
+     margin: 30px;
+     color: #1F2937;
+ }
+ .third {
+     display: flex;
+     background-color: #E5E7EB;
+ }
+ .quote {
+     text-align: center;
+     font-size: 36px;
+     font-style: italic;
+     color: #484d55;
+     margin: 30px;
+ }
+ .fourth .button {
+    color: white;
+    background-color: #3882f6;
+    padding: 5px;
+    border: 3px white solid;
+    border-radius: 10px;
+    height: 30px;
+    margin-right: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.fourth {
+    display: flex;
+    color: white;
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    border: 3px white solid;
+}
+.footer {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    color:#E5E7EB;
+    background-color: #1F2937
+    ;
+}
